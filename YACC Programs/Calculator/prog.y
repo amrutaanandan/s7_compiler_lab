@@ -1,3 +1,8 @@
+//use gcc -o <example> y.tab.c lex.yy.c -lfl -lm
+//./<example to run
+
+//for exponents, use '^' to indicate exponent operator
+
 %{
 	#include <math.h>
 	#include <stdlib.h>
